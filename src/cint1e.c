@@ -38,6 +38,7 @@ static void make_g1e_gout(double *gout, double *g, FINT *idx,
  */
 FINT CINT1e_loop(double *gctr, CINTEnvVars *envs, double *cache, FINT int1e_type)
 {
+        std::out << "I hecked in!!!!!=============";
         FINT *shls = envs->shls;
         FINT *bas = envs->bas;
         double *env = envs->env;
